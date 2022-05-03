@@ -1,0 +1,21 @@
+.places__indent {
+  margin: 0 148px 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__indent {
+    margin: 0 48px 92px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .places__indent {
+    margin: 0 24px 90px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .places__indent {
+    margin: 0 0 66px;
+  }
+}

@@ -1,0 +1,24 @@
+.places__lang-link {
+  margin: 0;
+  text-decoration: underline;
+  max-width: 456px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  color: #ffffff;
+  display: flex;
+  align-self: flex-start;
+}
+
+.places__lang-link:hover {
+  transition: opacity 1s;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 760px) {
+  .places__lang-link {
+    padding-bottom: 32px;
+    padding: 0 16px;
+  }
+}
