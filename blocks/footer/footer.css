@@ -1,6 +1,5 @@
 .footer {
   max-width: 1184px;
-  max-height: 18px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,7 +9,6 @@
 @media screen and (max-width: 760px) {
   .footer {
     max-width: 288px;
-    max-height: 310px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

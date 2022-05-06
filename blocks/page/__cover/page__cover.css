@@ -1,21 +1,21 @@
-.intro__indent {
+.page__cover {
   margin: 0 48px 92px;
 }
 
 @media screen and (max-width: 1024px) {
-  .intro__indent {
-    margin: 0 48px 92px;
+  .page__cover {
+    margin: 0 0 92px;
   }
 }
 
 @media screen and (max-width: 984px) {
-  .intro__indent {
-    margin: 0 24px 88px;
+  .page__cover {
+    margin: 0 0 88px;
   }
 }
 
 @media screen and (max-width: 760px) {
-  .intro__indent {
-    margin: 0 16px 64px;
+  .page__cover {
+    margin: 0 0 64px;
   }
 }

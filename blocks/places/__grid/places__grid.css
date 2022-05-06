@@ -3,14 +3,17 @@
   max-width: 984px;
   display: grid;
   grid-template-columns: 1fr 1.05fr;
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: minmax(max-content, min-content);
   grid-column-gap: 40px;
   grid-row-gap: 48px;
 }
 
+.places__grid:last-of-type {
+  padding-bottom: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .places__grid {
-    grid-template-rows: 0.8fr 2fr;
     grid-column-gap: 32px;
   }
   .places__grid:last-of-type {
@@ -20,8 +23,7 @@
 
 @media screen and (max-width: 984px) {
   .places__grid {
-    padding-bottom: 72px;
-    grid-template-rows: 0.8fr 4.7fr;
+    padding-bottom: 73px;
     grid-column-gap: 28px;
   }
   .places__grid:last-of-type {
