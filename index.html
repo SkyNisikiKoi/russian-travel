@@ -18,10 +18,19 @@
         alt="логотип Россия"
       />
       <div class="header__lang-links">
-        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
 
-        <a class="header__lang-link" href="#">En</a>
+        <label for="language-RU" class="header__lang-link">
+          <input class="header__lang-link-hidden" type="radio" name="language" id="language-RU" value="language-RU" checked>
+          <span class="header__lang-link-visible">Ru</span>
+       </label>
+          
+         <label for="language-En" class="header__lang-link">
+            <input class="header__lang-link-hidden" type="radio" name="language" id="language-En" value="language-En">
+             <span class="header__lang-link-visible">En</span>
+        </label>
       </div>
+
+
     </header>
 
     <main class="content">
